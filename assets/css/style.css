@@ -27,9 +27,6 @@ header{
     margin-left: 50px;
 }
 
-/*----------------------------------------------Links */
-
-
 .logo{
     background: url("../images/rosie.jpg");
     background-position: center;
@@ -64,6 +61,10 @@ header{
 
 .menucontainer{
     font-size:0;
+}
+
+#nav{
+    margin: 0;
 }
 
 #nav li{
@@ -101,4 +102,10 @@ header{
     font-weight: 300;
     letter-spacing: 2px;
 
+}
+
+/*----------------------------------------------Hover.css */
+.hvr-sweep-to-bottom:before{
+    background: rgba(0,0,0,0.2);
+    
 }
